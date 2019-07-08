@@ -6,11 +6,7 @@
 <title>Insert title here</title>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<style>
-	.sidebar-bg{
-		background: gray;
-	}
-</style>
+
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
@@ -36,10 +32,10 @@
   						<a href="/git-mall/mall/member/addMemberForm.jsp">회원가입</a>
   					</li>
   					<li>
-  						<a href="/git-mall/mall/member/login/loginForm.jsp">로그인</a>
+  						<a href="/git-mall/mall/login/loginForm.jsp">로그인</a>
   					</li>
   					<li>
-  						<a href="/mall/member/addMemberForm.jsp">상품등록</a>
+  						<a href="/git-mall/mall/goods/goodsinsert.jsp">상품등록</a>
   					</li>
   					<li>
   						<a href="/mall/member/addMemberForm.jsp">게시글등록</a>

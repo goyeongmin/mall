@@ -6,17 +6,7 @@
 <title>Insert title here</title>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<style>
-    body {
-        background: #f8f8f8;
-        padding: 60px 0;
-    }
-    
-    #login-form > div {
-        margin: 15px 0;
-    }
 
-</style>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
@@ -35,17 +25,17 @@
   			<div class="col-sm-4">
   				<ul>
   					<li>
-  					 	<i class="fas fa-thumbs-up"></i>
   						<a href="/git-mall/mall/index.jsp">홈으로</a>
   					</li>
   					<li>
   						<a href="/git-mall/mall/member/addMemberForm.jsp">회원가입</a>
   					</li>
   					<li>
-  						<a href="/git-mall/mall/member/login/loginForm.jsp">로그인</a>
+  						<i class="fas fa-thumbs-up"></i>
+  						<a href="/git-mall/mall/login/loginForm.jsp">로그인</a>
   					</li>
   					<li>
-  						<a href="/mall/member/addMemberForm.jsp">상품등록</a>
+  						<a href="/git-mall/mall/goods/goodsinsert.jsp">상품등록</a>
   					</li>
   					<li>
   						<a href="/mall/member/addMemberForm.jsp">게시글등록</a>
@@ -55,19 +45,19 @@
     <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
         <div class="panel panel-success">
             <div class="panel-heading">
-                <div class="panel-title">환영합니다!</div>
+                <div class="panel-title">환영합니다!</div><br>
             </div>
             <div class="panel-body">
                 <form id="login-form">
                     <div>
                         <input type="text" class="form-control" name="username" placeholder="Username" autofocus>
-                    </div>
+                    </div><br>
                     <div>
                         <input type="password" class="form-control" name="password" placeholder="Password">
-                    </div>
+                    </div><br>
                     <div>
                         <button type="submit" class="form-control btn btn-primary">로그인</button>
-                    </div>
+                    </div><br>
                 </form>
             </div>
         </div>

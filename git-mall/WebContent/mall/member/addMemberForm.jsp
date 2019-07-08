@@ -30,17 +30,18 @@
   			<div class="col-sm-4">
   				<ul>
   					<li>
-  					 	<i class="fas fa-thumbs-up"></i>
+  					 	
   						<a href="/git-mall/mall/index.jsp">홈으로</a>
   					</li>
   					<li>
+  						<i class="fas fa-thumbs-up"></i>
   						<a href="/git-mall/mall/member/addMemberForm.jsp">회원가입</a>
   					</li>
   					<li>
-  						<a href="/git-mall/mall/member/login/loginForm.jsp">로그인</a>s
+  						<a href="/git-mall/mall/login/loginForm.jsp">로그인</a>
   					</li>
   					<li>
-  						<a href="/mall/member/addMemberForm.jsp">상품등록</a>
+  						<a href="/git-mall/mall/goods/goodsinsert.jsp">상품등록</a>
   					</li>
   					<li>
   						<a href="/mall/member/addMemberForm.jsp">게시글등록</a>
