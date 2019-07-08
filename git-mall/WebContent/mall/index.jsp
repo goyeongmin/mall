@@ -12,7 +12,8 @@
 	}
 </style>
 
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -28,7 +29,11 @@
   			<div class="col-sm-4">
   				<ul>
   					<li>
-  						<a href="">홈으로</a>
+  					 	<i class="fas fa-thumbs-up"></i>
+  						<a href="/index.jsp">홈으로</a>
+  					</li>
+  					<li>
+  						<a href="./member/addMemberForm.jsp">회원가입</a>
   					</li>
   				</ul>
   			</div>
